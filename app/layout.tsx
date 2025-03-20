@@ -11,7 +11,13 @@ import { Metadata } from 'next';
 
 const inter = Inter({ subsets: ['latin'] });
 
-export const metadata: Metadata = defaultMetadata;
+export const metadata: Metadata = {
+  ...defaultMetadata,
+  verification: {
+    ...defaultMetadata.verification,
+    google: 'IlJD7LicHmG0LzKe-C_h2oI-i_4_zbHH6aNek2Blqww'
+  }
+};
 
 export default function RootLayout({
   children,
