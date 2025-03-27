@@ -2,7 +2,7 @@ import { Metadata } from 'next'
 
 const siteConfig = {
   name: 'Kingsway Phone Repairs',
-  url: 'https://kingsway.com',
+  url: 'https://cellphonerepairkingsway.ca',
   ogImage: '/og-image.png'
 }
 
@@ -59,19 +59,19 @@ export const defaultMetadata: Metadata = {
 // Page-specific metadata overrides
 export const pageMetadata: Record<string, Partial<Metadata>> = {
   home: {
-    title: 'Best Cell Phone Repair Services',
-    description: 'Best cell phone repair services with quality parts and quick turnaround times. Screen repairs, battery replacements, and more.',
+    title: 'Best Cell Phone Repair Kingsway | Fix 4 You Cellular',
+    description: 'Cell Phone Repair Kingsway. Get Your Device Fixed At Unbeatable Low Cost Services Offered For - iphone, Samsung Galaxy, & Google Pixel, Computers & Laptop Repair.',
   },
   about: {
-    title: 'About Us',
-    description: 'Learn about our experienced team of phone repair technicians and our commitment to quality service.',
+    title: 'About us | Fix 4 You Cellular Phone Repair ',
+    description: 'Fix 4 You Cellular is a cell phone repair company based in Kingsway, Vancouver that is passionate about mobile repair services. We also repair game consoles and computers.',
   },
   services: {
-    title: 'Our Services',
-    description: 'Comprehensive phone repair services including screen repairs, battery replacements, water damage repair, and more.',
+    title: 'Phone Repair Services in Kingsway | Fix 4 You Cellular',
+    description: 'Get fast, reliable phone repair services in Kingsway. Screen, battery, motherboard, and water damage repairs by expert technicians.',
   },
   contact: {
-    title: 'Contact Us',
-    description: 'Get in touch with our phone repair experts. Book a repair or ask about our services.',
+    title: 'Contact Us | Fix 4 You Cellular Mobile Cell Phones Repairs in Kingsway',
+    description: 'For all your mobile cell phones repairing or unlocking Contact Us, Fix 4 You Cellular cellphones repairs in Kingsway, Vancouver.',
   },
 }
